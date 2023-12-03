@@ -29,7 +29,45 @@ Cada método possui uma semântica diferente, mas alguns compartilham caracterí
 
 ## HTTP Status Code
 
-Os códigos de status de resposta HTTP indicam o resultado de uma solicitação, divididos em cinco classes: informativas, bem-sucedidas, de redirecionamento, de erro do cliente e de erro do servidor. As respostas informativas (100-199) incluem códigos como "100 Continue", indicando que o cliente deve continuar a solicitação. As respostas bem-sucedidas (200-299) incluem "200 OK", indicando que a solicitação foi concluída com sucesso. As mensagens de redirecionamento (300–399) incluem códigos como "301 Moved Permanently", indicando uma mudança permanente na URL solicitada. As respostas de erro do cliente (400–499) incluem códigos como "404 Not Found", indicando que o servidor não pode encontrar o recurso solicitado. As respostas de erro do servidor (500–599) incluem códigos como "500 Internal Server Error", indicando que o servidor encontrou uma situação que não sabe como lidar. Esses códigos são essenciais para a comunicação entre clientes e servidores na web.
+Os códigos de status de resposta HTTP indicam o resultado de uma solicitação, divididos em cinco classes: informativas, bem-sucedidas, de redirecionamento, de erro do cliente e de erro do servidor.
+```
+Respostas informativas (100- 199)
+Respostas bem-sucedidas (200- 299)
+Mensagens de redirecionamento (300– 399)
+Respostas de erro do cliente (400– 499)
+Respostas de erro do servidor (500– 599)
+```
+
+Esses códigos são essenciais para a comunicação entre clientes e servidores na web. A seguir está alguns exemplos mais detalhados e seus significados:
+
+```
+Respostas Informativas
+- 100 Continue: Resposta provisória indicando que o cliente deve continuar a solicitação ou ignorar se concluída.
+- 101 Switching Protocols: Enviado em resposta a um cabeçalho Upgrade, indica a mudança de protocolo.
+- 102 Processing (WebDAV): Indica que o servidor recebeu e está processando a solicitação.
+
+Respostas Bem-Sucedidas
+- 200 OK: Solicitação bem-sucedida, e o significado varia conforme o método HTTP.
+- 201 Created: Solicitação bem-sucedida, resultando na criação de um novo recurso.
+- 202 Accepted: Solicitação recebida, ainda não atendida, adequado para casos assíncronos.
+
+Mensagens de Redirecionamento
+- 300 Multiple Choices: Solicitação com várias respostas possíveis.
+- 301 Moved Permanently: URL do recurso foi alterada permanentemente.
+- 302 Found: URI temporariamente alterado, sujeito a futuras mudanças.
+
+Respostas de Erro do Cliente
+- 400 Bad Request: Servidor não pode processar devido a erro do cliente.
+- 401 Unauthorized: Sem autenticação; o cliente deve se autenticar.
+- 403 Forbidden: Cliente não autorizado; o servidor recusa o recurso solicitado.
+- 404 Not Found:** Recurso solicitado não encontrado.
+
+Respostas de Erro do Servidor
+- 500 Internal Server Error: Situação que o servidor não sabe como lidar.
+- 501 Not Implemented: Método de solicitação não suportado pelo servidor.
+- 502 Bad Gateway: Servidor, como gateway, obteve uma resposta inválida.
+
+```
 
 ---
 Autor do resumo: [Pedro Ricardo Da Silva Rodrigues](www.linkedin.com/in/pedro-rs-rodrigues) - 01565486
