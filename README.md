@@ -70,4 +70,4 @@ Respostas de Erro do Servidor
 ```
 
 ---
-Autor do resumo: [Pedro Ricardo Da Silva Rodrigues](www.linkedin.com/in/pedro-rs-rodrigues) - 01565486
+Autor do resumo: [Pedro Ricardo Da Silva Rodrigues](https://www.linkedin.com/in/pedro-rs-rodrigues/) - 01565486
