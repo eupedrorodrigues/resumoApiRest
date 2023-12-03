@@ -60,7 +60,7 @@ Respostas de Erro do Cliente
 - 400 Bad Request: Servidor não pode processar devido a erro do cliente.
 - 401 Unauthorized: Sem autenticação; o cliente deve se autenticar.
 - 403 Forbidden: Cliente não autorizado; o servidor recusa o recurso solicitado.
-- 404 Not Found:** Recurso solicitado não encontrado.
+- 404 Not Found: Recurso solicitado não encontrado.
 
 Respostas de Erro do Servidor
 - 500 Internal Server Error: Situação que o servidor não sabe como lidar.
